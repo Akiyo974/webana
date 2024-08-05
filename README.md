@@ -4,9 +4,9 @@
 Ce projet est une [refonte](# "Cliquez pour voir l'image") d'un ancien site web que j'ai créé en début de première année en intégration multimédia, portant sur l'histoire des katanas. L'objectif est de moderniser l'apparence et la fonctionnalité du site en utilisant des technologies web actuelles comme HTML, CSS, JavaScript, Bootstrap, et jQuery.
 
 <details>
-<summary>Cliquez pour voir l'image de l'ancienne version du projet</summary>
+<summary><b>Cliquez pour voir l'image de l'ancienne version du projet</b></summary>
 <p align="center">
-  <img src="images/webana.png" alt="Ancienne version du projet Webana">
+  <img src="path_to_your_image/webana.png" alt="Ancienne version du projet Webana">
 </p>
 </details>
 
