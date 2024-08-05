@@ -1,8 +1,14 @@
 # Webana - Refonte d'un Site sur l'Histoire des Katanas
 
-## Aperçu du projet
+## Description du projet
+Ce projet est une [refonte](# "Cliquez pour voir l'image") d'un ancien site web que j'ai créé en début de première année en intégration multimédia, portant sur l'histoire des katanas. L'objectif est de moderniser l'apparence et la fonctionnalité du site en utilisant des technologies web actuelles comme HTML, CSS, JavaScript, Bootstrap, et jQuery.
 
-Webana est une refonte d'un site initialement créé lors de ma première année en intégration multimédia. Ce site se concentre sur l'histoire et la culture des katanas, des épées emblématiques japonaises.
+<details>
+<summary>Cliquez pour voir l'image de l'ancienne version du projet</summary>
+<p align="center">
+  <img src="images/webana.png" alt="Ancienne version du projet Webana">
+</p>
+</details>
 
 ### Objectifs
 - Moderniser l'apparence et les fonctionnalités du site original.
