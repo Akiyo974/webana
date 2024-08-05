@@ -1,0 +1,427 @@
+// Variables pour les couleurs
+$color-black: #000000;
+$color-white: #fefefe;
+$color-gray: #f5f5f5;
+$color-dark-gray: #444444;
+$color-red: #ff0000;
+$color-gray-hover: #606060;
+$color-btn-blue: #007bff;
+$color-btn-night: #282828;
+$color-yellow: #dbc602;
+
+// Styles de base
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+// Section de bienvenue avec image de fond
+.welcome-section {
+    position: relative;
+    background: url("images/accueil/forge.jpg") no-repeat center center/cover;
+    color: $color-white;
+    padding: 150px 20px;
+    min-height: 400px;
+
+    // Overlay sombre
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    // Assurer que le contenu soit au-dessus de l'overlay
+    h1, p {
+        position: relative;
+        z-index: 2;
+        color: inherit;
+    }
+}
+
+// Styles du header
+.header-container {
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        width: 100%;
+
+        .nav-item {
+            margin: 0;
+        }
+
+        .nav-link {
+            padding: 15px;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $color-gray-hover;
+            }
+        }
+    }
+
+    .logo-image {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+// Mode Jour
+.day-mode {
+    background-color: $color-white;
+    color: $color-black;
+
+    .navbar-nav {
+        border-color: $color-black;
+
+        .nav-link {
+            color: $color-black;
+
+            &:hover {
+                color: $color-gray-hover;
+            }
+        }
+    }
+
+    .btn {
+        background-color: $color-btn-blue;
+        color: $color-white;
+
+        &:hover {
+            background-color: darken($color-btn-blue, 10%);
+        }
+    }
+}
+
+// Mode Nuit
+.night-mode {
+    background-color: $color-black;
+    color: #ecf0f1;
+
+    .navbar-nav {
+        border-color: #ecf0f1;
+
+        .nav-link {
+            color: #ecf0f1;
+
+            &:hover {
+                color: $color-red;
+            }
+        }
+    }
+
+    .btn {
+        background-color: $color-btn-night;
+        color: $color-white;
+
+        &:hover {
+            background-color: lighten($color-btn-night, 10%);
+        }
+    }
+}
+
+// Styles pour le switch
+.switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+    font-size: 17px;
+
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $color-black;
+        transition: 0.4s;
+        border-radius: 30px;
+
+        &:before {
+            position: absolute;
+            content: "\f186"; // Unicode for moon icon (FontAwesome)
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: $color-white;
+            font-size: 1em;
+            height: 1.4em;
+            width: 1.4em;
+            border-radius: 50%;
+            left: 0.3em;
+            bottom: 0.3em;
+            transition: 0.4s;
+            text-align: center;
+            line-height: 1.4em;
+            background-color: $color-yellow;
+        }
+    }
+
+    input:checked + .slider {
+        background-color: $color-white;
+
+        &:before {
+            transform: translateX(1.5em);
+            content: "\f185"; // Unicode for sun icon (FontAwesome)
+            color: $color-black;
+        }
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px $color-black;
+    }
+}
+
+// Styles spécifiques à la page de magasin
+.magasin-page {
+    form#orderForm {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: $color-gray;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        fieldset {
+            border: none;
+            margin-bottom: 20px;
+
+            legend {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+                color: $color-dark-gray;
+            }
+
+            .form-label {
+                font-weight: bold;
+                color: $color-dark-gray;
+                margin-bottom: 5px;
+            }
+
+            .form-control,
+            .form-select,
+            .form-check-input,
+            .btn {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                border: 1px solid $color-dark-gray;
+            }
+
+            .form-check-input {
+                width: auto;
+                margin-right: 10px;
+            }
+
+            .form-check-label {
+                margin-left: 5px;
+                font-size: 1rem;
+                color: $color-dark-gray;
+            }
+
+            .form-check {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        // Styles spécifiques pour la section des ajouts
+        h5 {
+            font-size: 1.2rem;
+            color: $color-dark-gray;
+            margin-bottom: 10px;
+        }
+    }
+
+    // Styles des boutons
+    .btn {
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+
+        &-primary {
+            background-color: $color-btn-blue;
+            color: $color-white;
+
+            &:hover {
+                background-color: darken($color-btn-blue, 10%);
+            }
+        }
+
+        &-secondary {
+            background-color: $color-gray-hover;
+            color: $color-black;
+
+            &:hover {
+                background-color: darken($color-gray-hover, 10%);
+            }
+        }
+    }
+
+    // Récapitulatif de commande
+    #orderSummary {
+        display: none;
+        background-color: $color-white;
+        border: 1px solid $color-dark-gray;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        h5 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: $color-dark-gray;
+        }
+
+        p {
+            font-size: 1rem;
+            color: $color-dark-gray;
+            margin: 5px 0;
+        }
+    }
+
+    // Message de succès
+    #lblMessage {
+        display: none;
+        color: $color-btn-blue;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+
+// Styles pour la section "Visitez Notre Magasin"
+.magasin-section {
+    text-align: center; // Centrer le texte et les éléments
+
+    .product-card {
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        width: 150px;
+
+        img {
+            width: 100%;
+            height: 150px; // Fixer la hauteur des images pour qu'elles soient uniformes
+            object-fit: cover; // Ajuster l'image pour qu'elle remplisse le conteneur sans déformer
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h5 {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: $color-dark-gray;
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: $color-gray-hover;
+        }
+    }
+    // Assurez-vous que le bouton prenne la largeur de la section et soit centré
+    .btn-explore {
+        display: block;
+
+        &:hover {
+            background-color: darken($color-btn-blue, 10%);
+        }
+    }
+}
+
+// Footer
+.footer {
+    background-color: $color-black;
+    color: $color-white;
+
+    h5 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    p, ul, li {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $color-white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .list-unstyled {
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 10px;
+
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .list-inline {
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+
+        .list-inline-item {
+            margin-right: 10px;
+        }
+    }
+
+    // Media queries for mobile
+    @media (max-width: 767.98px) {
+        .row > div {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .list-inline {
+            justify-content: center;
+        }
+
+        .list-inline-item {
+            margin-bottom: 10px;
+        }
+    }
+}
