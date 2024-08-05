@@ -6,7 +6,7 @@ Ce projet est une [refonte](# "Cliquez pour voir l'image") d'un ancien site web 
 <details>
 <summary><b>Cliquez pour voir l'image de l'ancienne version du projet</b></summary>
 <p align="center">
-  <img src="path_to_your_image/webana.png" alt="Ancienne version du projet Webana">
+  <img src="images/webana.png" alt="Ancienne version du projet Webana">
 </p>
 </details>
 
