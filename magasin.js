@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 imageKat.src = "images/magasin/Kodachi.jpg";
                 break;
             case "uchigatana":
-                imageKat.src = "images/magasin/Uchigatana.jpg";
+                imageKat.src = "images/magasin/uchigatana.jpg";
                 break;
             case "nodachi":
-                imageKat.src = "images/magasin/Nodachi.jpg";
+                imageKat.src = "images/magasin/nodachi.jpg";
                 break;
             default:
-                imageKat.src = "images/magasin/default.jpg";
+                imageKat.src = "images/magasin/Kodachi.jpg";
         }
 
         // Calculer le total
