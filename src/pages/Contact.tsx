@@ -30,7 +30,7 @@ export function Contact() {
       <div className="relative h-[40vh] overflow-hidden">
         <div className="absolute inset-0 transform scale-110">
           <img
-            src="/contact_Banniere.webp"
+            src="contact/contact_Banniere.webp"
             alt="Contact"
             className="w-full h-full object-cover transform scale-110 motion-safe:animate-subtle-zoom"
           />

@@ -10,7 +10,7 @@ export function Hero({ onNavigate }: HeroProps) {
     <div className="relative h-screen">
       <div className="absolute inset-0">
         <img
-          src="/hero_Banniere.webp"
+          src="hero/hero_Banniere.webp"
           alt="Katana Background"
           className="w-full h-full object-cover"
         />

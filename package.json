@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://akiyo974.github.io/webana", // URL de votre site GitHub Pages
+  "homepage": "https://akiyo974.github.io/webana",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -8,7 +8,7 @@
       "period": "edo",
       "rating": 5,
       "stock": 3,
-      "image": "/tradi_Hattori.webp",
+      "image": "shop/tradi_Hattori.webp",
       "description": "Forgé selon les traditions ancestrales, ce katana représente l'excellence de l'artisanat japonais.",
       "specifications": {
         "longueur": "73 cm",
@@ -25,7 +25,7 @@
       "period": "sengoku",
       "rating": 4,
       "stock": 5,
-      "image": "/ninja_Kuro.webp",
+      "image": "shop/ninja_Kuro.webp",
       "description": "Un katana léger et maniable, parfait pour les techniques rapides.",
       "specifications": {
         "longueur": "68 cm",
@@ -42,7 +42,7 @@
       "period": "meiji",
       "rating": 5,
       "stock": 2,
-      "image": "/cerem_Sakura.webp",
+      "image": "shop/cerem_Sakura.webp",
       "description": "Un chef-d'œuvre orné de motifs de cerisiers, idéal pour les cérémonies.",
       "specifications": {
         "longueur": "70 cm",
@@ -59,7 +59,7 @@
       "period": "edo",
       "rating": 5,
       "stock": 4,
-      "image": "/vent_Fujin.webp",
+      "image": "shop/vent_Fujin.webp",
       "description": "Équilibré et puissant, ce katana est inspiré par le dieu du vent Fujin.",
       "specifications": {
         "longueur": "75 cm",
@@ -76,7 +76,7 @@
       "period": "sengoku",
       "rating": 4,
       "stock": 6,
-      "image": "/ombre_Noire.webp",
+      "image": "shop/ombre_Noire.webp",
       "description": "Ce katana sombre et discret est parfait pour les missions secrètes.",
       "specifications": {
         "longueur": "69 cm",
@@ -93,7 +93,7 @@
       "period": "meiji",
       "rating": 5,
       "stock": 1,
-      "image": "/soleil_Amaterasu.webp",
+      "image": "shop/soleil_Amaterasu.webp",
       "description": "Orné de motifs dorés, ce katana représente la divinité solaire Amaterasu.",
       "specifications": {
         "longueur": "72 cm",
@@ -110,7 +110,7 @@
       "period": "edo",
       "rating": 4,
       "stock": 3,
-      "image": "/tigre_Shishi.webp",
+      "image": "shop/tigre_Shishi.webp",
       "description": "Inspiré par la puissance du tigre, ce katana allie force et précision.",
       "specifications": {
         "longueur": "74 cm",

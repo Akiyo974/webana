@@ -65,7 +65,7 @@ export function Shop() {
       <div className="relative h-[50vh] mb-16 overflow-hidden">
         <div className="absolute inset-0 transform scale-110">
           <img
-            src="/shop_Banniere.webp"
+            src="shop/shop_Banniere.webp"
             alt="Collection de Katanas"
             className="w-full h-full object-cover transform scale-110 motion-safe:animate-subtle-zoom"
           />
