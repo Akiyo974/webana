@@ -1,0 +1,51 @@
+{
+  "introduction": {
+    "title": "L'Art de la Forge",
+    "description": "Découvrez le processus millénaire de création d'un katana, où chaque étape requiert une précision absolue et des années de maîtrise.",
+    "headerImage": "forge/forge_Banniere.webp"
+  },
+  "steps": [
+    {
+      "id": "tamahagane",
+      "title": "Création du Tamahagane",
+      "description": "Le processus commence par la création du tamahagane, un acier japonais traditionnel obtenu à partir de sable noir (satetsu) dans un four en argile (tatara).",
+      "image": "forge/forge_Tamahagane.webp",
+      "duration": "72 heures"
+    },
+    {
+      "id": "folding",
+      "title": "Pliage de l'Acier",
+      "description": "L'acier est plié et replié jusqu'à 16 fois, créant des milliers de couches. Cette technique élimine les impuretés et homogénéise le carbone.",
+      "image": "forge/forge_Pliage.webp",
+      "duration": "plusieurs semaines"
+    },
+    {
+      "id": "shaping",
+      "title": "Mise en Forme",
+      "description": "La lame est minutieusement façonnée pour obtenir sa forme caractéristique. Le tranchant est particulièrement travaillé pour sa dureté.",
+      "image": "forge/forge_Forme.webp",
+      "duration": "2-3 semaines"
+    },
+    {
+      "id": "hardening",
+      "title": "Trempe",
+      "description": "La lame est recouverte d'argile selon un motif précis puis chauffée et refroidie rapidement, créant la ligne de trempe (hamon).",
+      "image": "forge/forge_Trempe.webp",
+      "duration": "1 journée"
+    },
+    {
+      "id": "polishing",
+      "title": "Polissage",
+      "description": "Un polissage minutieux révèle la beauté du motif de la lame et affine son tranchant, utilisant jusqu'à 8 pierres différentes.",
+      "image": "forge/forge_Polissage.webp",
+      "duration": "2 semaines"
+    },
+    {
+      "id": "mounting",
+      "title": "Montage",
+      "description": "La lame est assemblée avec sa garde (tsuba), sa poignée (tsuka) et autres composants, créant une arme fonctionnelle et esthétique.",
+      "image": "forge/forge_Montage.webp",
+      "duration": "1 semaine"
+    }
+  ]
+}

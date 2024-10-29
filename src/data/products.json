@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "id": "k001",
+      "name": "Katana Traditionnel Hattori",
+      "price": 2499.99,
+      "category": "traditionnel",
+      "period": "edo",
+      "rating": 5,
+      "stock": 3,
+      "image": "/tradi_Hattori.webp",
+      "description": "Forgé selon les traditions ancestrales, ce katana représente l'excellence de l'artisanat japonais.",
+      "specifications": {
+        "longueur": "73 cm",
+        "poids": "1.2 kg",
+        "acier": "Acier tamahagane",
+        "tsuka": "Ray skin & soie tressée"
+      }
+    },
+    {
+      "id": "k002",
+      "name": "Katana Ninja Kuro",
+      "price": 1899.99,
+      "category": "ninja",
+      "period": "sengoku",
+      "rating": 4,
+      "stock": 5,
+      "image": "/ninja_Kuro.webp",
+      "description": "Un katana léger et maniable, parfait pour les techniques rapides.",
+      "specifications": {
+        "longueur": "68 cm",
+        "poids": "1.0 kg",
+        "acier": "Acier à haute teneur en carbone",
+        "tsuka": "Soie tressée noire"
+      }
+    },
+    {
+      "id": "k003",
+      "name": "Katana Cérémoniel Sakura",
+      "price": 3299.99,
+      "category": "ceremoniel",
+      "period": "meiji",
+      "rating": 5,
+      "stock": 2,
+      "image": "/cerem_Sakura.webp",
+      "description": "Un chef-d'œuvre orné de motifs de cerisiers, idéal pour les cérémonies.",
+      "specifications": {
+        "longueur": "70 cm",
+        "poids": "1.1 kg",
+        "acier": "Acier damassé",
+        "tsuka": "Ray skin & soie dorée"
+      }
+    },
+    {
+      "id": "k004",
+      "name": "Katana du Vent Fujin",
+      "price": 2799.99,
+      "category": "traditionnel",
+      "period": "edo",
+      "rating": 5,
+      "stock": 4,
+      "image": "/vent_Fujin.webp",
+      "description": "Équilibré et puissant, ce katana est inspiré par le dieu du vent Fujin.",
+      "specifications": {
+        "longueur": "75 cm",
+        "poids": "1.3 kg",
+        "acier": "Acier tamahagane",
+        "tsuka": "Ray skin & soie verte"
+      }
+    },
+    {
+      "id": "k005",
+      "name": "Katana Ombre Noire",
+      "price": 2199.99,
+      "category": "ninja",
+      "period": "sengoku",
+      "rating": 4,
+      "stock": 6,
+      "image": "/ombre_Noire.webp",
+      "description": "Ce katana sombre et discret est parfait pour les missions secrètes.",
+      "specifications": {
+        "longueur": "69 cm",
+        "poids": "1.1 kg",
+        "acier": "Acier au carbone trempé",
+        "tsuka": "Soie tressée noire"
+      }
+    },
+    {
+      "id": "k006",
+      "name": "Katana du Soleil Amaterasu",
+      "price": 3499.99,
+      "category": "ceremoniel",
+      "period": "meiji",
+      "rating": 5,
+      "stock": 1,
+      "image": "/soleil_Amaterasu.webp",
+      "description": "Orné de motifs dorés, ce katana représente la divinité solaire Amaterasu.",
+      "specifications": {
+        "longueur": "72 cm",
+        "poids": "1.2 kg",
+        "acier": "Acier damassé",
+        "tsuka": "Ray skin & soie dorée"
+      }
+    },
+    {
+      "id": "k007",
+      "name": "Katana du Tigre Shishi",
+      "price": 2599.99,
+      "category": "traditionnel",
+      "period": "edo",
+      "rating": 4,
+      "stock": 3,
+      "image": "/tigre_Shishi.webp",
+      "description": "Inspiré par la puissance du tigre, ce katana allie force et précision.",
+      "specifications": {
+        "longueur": "74 cm",
+        "poids": "1.25 kg",
+        "acier": "Acier tamahagane",
+        "tsuka": "Ray skin & soie noire"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "traditionnel",
+      "name": "Traditionnel"
+    },
+    {
+      "id": "ninja",
+      "name": "Ninja"
+    },
+    {
+      "id": "ceremoniel",
+      "name": "Cérémoniel"
+    }
+  ],
+  "periods": [
+    {
+      "id": "edo",
+      "name": "Période Edo"
+    },
+    {
+      "id": "sengoku",
+      "name": "Période Sengoku"
+    },
+    {
+      "id": "meiji",
+      "name": "Période Meiji"
+    }
+  ]
+}

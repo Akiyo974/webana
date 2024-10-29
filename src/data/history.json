@@ -1,0 +1,57 @@
+{
+  "introduction": {
+    "title": "L'Histoire du Katana",
+    "description": "Le katana, symbole de l'excellence artisanale japonaise, est bien plus qu'une simple arme. C'est le témoin d'une histoire millénaire, façonnée par des générations de maîtres forgerons et portée par les plus nobles guerriers du Japon féodal.",
+    "headerImage": "histoire/hist_Banniere.webp"
+  },
+  "features": [
+    {
+      "id": "art-martial",
+      "title": "Art Martial",
+      "description": "Le katana est au cœur des arts martiaux japonais, notamment dans le iaido et le kenjutsu.",
+      "icon": "Sword"
+    },
+    {
+      "id": "artisanat",
+      "title": "Artisanat",
+      "description": "La forge d'un katana peut prendre plusieurs mois, nécessitant des milliers de plis de l'acier.",
+      "icon": "Hammer"
+    },
+    {
+      "id": "heritage",
+      "title": "Héritage",
+      "description": "Les techniques de forge sont transmises de maître à apprenti depuis des générations.",
+      "icon": "Users"
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Période Kofun",
+      "date": "300-538",
+      "title": "Les Origines",
+      "description": "Introduction des premières techniques de forge du fer au Japon, marquant le début de l'histoire du sabre japonais.",
+      "image": "histoire/hist_Origine.webp"
+    },
+    {
+      "period": "Période Heian",
+      "date": "794-1185",
+      "title": "L'Émergence du Katana",
+      "description": "Développement des techniques de forge qui donneront naissance au katana classique. Les premiers maîtres forgerons établissent leurs traditions.",
+      "image": "histoire/hist_Emergence.webp"
+    },
+    {
+      "period": "Période Kamakura",
+      "date": "1185-1333",
+      "title": "L'Âge d'Or",
+      "description": "Le katana atteint son apogée. Les techniques de forge sont perfectionnées et les plus grandes écoles de forge sont établies.",
+      "image": "histoire/hist_Age_Or.webp"
+    },
+    {
+      "period": "Période Edo",
+      "date": "1603-1867",
+      "title": "La Standardisation",
+      "description": "Le katana devient un symbole de statut pour les samouraïs. Les techniques de forge sont codifiées et transmises de génération en génération.",
+      "image": "histoire/hist_Standardisation.webp"
+    }
+  ]
+}
